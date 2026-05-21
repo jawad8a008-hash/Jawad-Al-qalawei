@@ -6,7 +6,7 @@ app.use(cors());
 app.use(express.json());
 
 // تم وضع مفتاح الـ API الخاص بك هنا بأمان في الخلفية
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "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";
 
 app.post('/chat', async (req, res) => {
     const userQuery = req.body.message;
